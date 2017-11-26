@@ -1,0 +1,28 @@
+$background: #fff;
+
+html{
+	background: $background;
+}
+
+.flex{
+	display: flex;
+}
+
+.dot{
+	background: #388;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	position: absolute;
+	top:0;
+	left:0;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+}
+
+#heatmap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
